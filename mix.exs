@@ -31,7 +31,7 @@ defmodule Opengraph.Mixfile do
 
   defp deps do
     [
-      {:httpoison, "~> 0.10.0"},
+      {:httpoison, "~> 0.11.1"},
       {:floki, "~> 0.11.0"},
       {:mock, "~> 0.2.0", only: :test},
       {:ex_doc, ">= 0.0.0", only: :dev},
